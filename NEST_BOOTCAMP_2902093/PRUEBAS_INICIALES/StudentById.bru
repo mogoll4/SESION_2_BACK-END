@@ -1,0 +1,16 @@
+meta {
+  name: StudentById
+  type: http
+  seq: 4
+}
+
+get {
+  url: http://localhost:3000/identificacion/10310805/ciudad/bogota?nombre=Javier&edad=57
+  body: none
+  auth: none
+}
+
+params:query {
+  nombre: Javier
+  edad: 57
+}
